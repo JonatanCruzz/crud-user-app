@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { EMAIL_VALIDATIONS, FIRST_NAME_VALIDATIONS, LAST_NAME_VALIDATIONS, PASSWORD_VALIDATIONS } from "../constants/formValidations";
 import { IconSquareRoundedXFilled } from "@tabler/icons-react";
 
@@ -20,9 +19,9 @@ const Modal = ({
         >
             <form
                 onSubmit={handleSubmit(submit)}
-                className="bg-white p-3 rounded-md grid gap-3 w-[min(100%,_320px)] relative"
+                className="bg-[#181a1b] p-3 rounded-md grid gap-3 w-[min(100%,_320px)] relative"
             >
-                <h2 className="text-center text-lg font-semibold">
+                <h2 className="text-center text-lg text-white font-semibold">
                     {idUserToEdit ? "Actualizar usuario" : "Crear usuario"}
                 </h2>
                 <button
@@ -35,11 +34,12 @@ const Modal = ({
 
                 {/* Name */}
                 <div className="grid gap-1">
-                    <label className="font-light" htmlFor="first_name">
+                    <label className="font-light text-white" htmlFor="first_name">
                         Nombres
                     </label>
                     <input
-                        className="outline-none border px-2 py-1 rounded-sm"
+                        className="outline-none border border-[#26292b] px-2 py-1 rounded-sm 
+                        bg-[#26292b] text-white"
                         id="first_name"
                         type="text"
                         autoComplete="off"
@@ -52,11 +52,12 @@ const Modal = ({
 
                 {/* Last name */}
                 <div className="grid gap-1">
-                    <label className="font-light" htmlFor="last_name">
+                    <label className="font-light text-white" htmlFor="last_name">
                         Apellidos
                     </label>
                     <input
-                        className="outline-none border px-2 py-1 rounded-sm"
+                        className="outline-none border border-[#26292b] px-2 py-1 rounded-sm 
+                        bg-[#26292b] text-white bg-clip-padding"
                         id="last_name"
                         type="text"
                         {...register("last_name", LAST_NAME_VALIDATIONS)}
@@ -68,11 +69,12 @@ const Modal = ({
 
                 {/* Email */}
                 <div className="grid gap-1">
-                    <label className="font-light" htmlFor="email">
+                    <label className="font-light text-white" htmlFor="email">
                         Correo
                     </label>
                     <input
-                        className="outline-none border px-2 py-1 rounded-sm"
+                        className="outline-none border border-[#26292b] px-2 py-1 rounded-sm 
+                        bg-[#26292b] text-white"
                         id="email"
                         type="text"
                         {...register("email", EMAIL_VALIDATIONS)}
@@ -84,11 +86,12 @@ const Modal = ({
 
                 {/* Password */}
                 <div className="grid gap-1">
-                    <label className="font-light" htmlFor="password">
+                    <label className="font-light text-white" htmlFor="password">
                         Contraseña
                     </label>
                     <input
-                        className="outline-none border px-2 py-1 rounded-sm"
+                        className="outline-none border border-[#26292b] px-2 py-1 rounded-sm 
+                        bg-[#26292b] text-white"
                         id="password"
                         type="password"
                         {...register("password", PASSWORD_VALIDATIONS)}
@@ -100,11 +103,12 @@ const Modal = ({
 
                 {/* Birthday */}
                 <div className="grid gap-1">
-                    <label className="font-light" htmlFor="birthday">
+                    <label className="font-light text-white" htmlFor="birthday">
                         Cumpleaños
                     </label>
                     <input
-                        className="outline-none border px-2 py-1 rounded-sm"
+                        className="outline-none border border-[#26292b] px-2 py-1 rounded-sm 
+                        bg-[#26292b] text-white"
                         id="birthday"
                         type="date"
                         {...register("birthday")}
@@ -113,11 +117,11 @@ const Modal = ({
 
                 {/* Campo de imagen */}
                 <div className="grid gap-1">
-                    <label className="font-light" htmlFor="image_url">
+                    <label className="font-light text-white" htmlFor="image_url">
                         Url de la imagen
                     </label>
                     <input
-                        className="outline-none border px-2 py-1 rounded-sm"
+                        className="outline-none border border-[#26292b] px-2 py-1 rounded-sm bg-[#26292b] text-white"
                         id="image_url"
                         type="text"
                         {...register("image_url")}
