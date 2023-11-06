@@ -22,7 +22,7 @@ const Modal = ({
                 className="bg-[#181a1b] p-3 rounded-md grid gap-3 w-[min(100%,_320px)] relative"
             >
                 <h2 className="text-center text-lg text-white font-semibold">
-                    {idUserToEdit ? "Actualizar usuario" : "Crear usuario"}
+                    {idUserToEdit ? "Update user" : "Create user"}
                 </h2>
                 <button
                     onClick={handleClosedModal}
@@ -132,7 +132,7 @@ const Modal = ({
                     className="bg-blue-500 text-white p-2 px-4 uppercase font-semibold rounded-sm mt-4"
                     type="submit"
                 >
-                    {idUserToEdit ? "Guardar cambios del usuario" : "Agregar nuevo usuario"}
+                    {idUserToEdit ? "Save user changes" : "Add new user"}
                 </button>
             </form>
         </section>

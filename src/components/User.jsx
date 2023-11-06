@@ -54,7 +54,7 @@ const User = ({ userInfo, deleteUser, handleClickUpdate }) => {
 
             {showModal && (
                 <ConfirmationModal
-                    message="¿Estás seguro de que deseas eliminar este usuario?"
+                    message="¿You are sure you want to delete this user?"
                     onConfirm={confirmDelete}
                     onCancel={cancelDelete}
                 />
