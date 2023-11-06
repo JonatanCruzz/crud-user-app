@@ -27,9 +27,9 @@ const User = ({ userInfo, deleteUser, handleClickUpdate }) => {
             </h2> <hr />
 
             <ul className='grid gap-1'>
-                <li><span className="text-white">CORREO: </span><br />  {userInfo.email}</li>
+                <li><span className="text-white">EMAIL: </span><br />  {userInfo.email}</li>
                 <li className="flex flex-col">
-                    <span className="text-white">CUMPLEAÑOS:</span>
+                    <span className="text-white">BIRTHDAY:</span>
                     <div className="flex items-center gap-2">
                         <IconGift />
                         {userInfo.birthday}

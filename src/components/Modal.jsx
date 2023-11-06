@@ -35,7 +35,7 @@ const Modal = ({
                 {/* Name */}
                 <div className="grid gap-1">
                     <label className="font-light text-white" htmlFor="first_name">
-                        Nombres
+                        Names
                     </label>
                     <input
                         className="outline-none border border-[#26292b] px-2 py-1 rounded-sm 
@@ -53,7 +53,7 @@ const Modal = ({
                 {/* Last name */}
                 <div className="grid gap-1">
                     <label className="font-light text-white" htmlFor="last_name">
-                        Apellidos
+                        Last names
                     </label>
                     <input
                         className="outline-none border border-[#26292b] px-2 py-1 rounded-sm 
@@ -70,7 +70,7 @@ const Modal = ({
                 {/* Email */}
                 <div className="grid gap-1">
                     <label className="font-light text-white" htmlFor="email">
-                        Correo
+                        Email
                     </label>
                     <input
                         className="outline-none border border-[#26292b] px-2 py-1 rounded-sm 
@@ -87,7 +87,7 @@ const Modal = ({
                 {/* Password */}
                 <div className="grid gap-1">
                     <label className="font-light text-white" htmlFor="password">
-                        Contraseña
+                        Password
                     </label>
                     <input
                         className="outline-none border border-[#26292b] px-2 py-1 rounded-sm 
@@ -104,7 +104,7 @@ const Modal = ({
                 {/* Birthday */}
                 <div className="grid gap-1">
                     <label className="font-light text-white" htmlFor="birthday">
-                        Cumpleaños
+                        Birthday
                     </label>
                     <input
                         className="outline-none border border-[#26292b] px-2 py-1 rounded-sm 
@@ -118,7 +118,7 @@ const Modal = ({
                 {/* Campo de imagen */}
                 <div className="grid gap-1">
                     <label className="font-light text-white" htmlFor="image_url">
-                        Url de la imagen
+                        Image Url
                     </label>
                     <input
                         className="outline-none border border-[#26292b] px-2 py-1 rounded-sm bg-[#26292b] text-white"

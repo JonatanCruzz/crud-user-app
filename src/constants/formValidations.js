@@ -1,57 +1,57 @@
 const EMAIL_VALIDATIONS = {
   required: {
     value: true,
-    message: "Este campo es requerido",
+    message: "This field is required",
   },
   pattern: {
     value:
       /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
-    message: "Ingrese un correo válido",
+    message: "Enter a valid email address",
   },
 };
 
 const PASSWORD_VALIDATIONS = {
   required: {
     value: true,
-    message: "Este campo es requerido",
+    message: "This field is required",
   },
   maxLength: {
     value: 50,
-    message: "Este campo acepta 50 carácteres como máximo",
+    message: "This field accepts a maximum of 50 characters",
   },
   minLength: {
     value: 5,
-    message: "Este campo acepta 5 carácteres como minimo",
+    message: "This field accepts a minimum of 5 characters",
   },
 };
 
 const FIRST_NAME_VALIDATIONS = {
   required: {
     value: true,
-    message: "Este campo es requerido",
+    message: "This field is required",
   },
   maxLength: {
     value: 50,
-    message: "Este campo acepta 50 carácteres como máximo",
+    message: "This field accepts a maximum of 50 characters",
   },
   minLength: {
     value: 5,
-    message: "Este campo acepta 5 carácteres como minimo",
+    message: "This field accepts a minimum of 5 characters",
   },
 };
 
 const LAST_NAME_VALIDATIONS = {
   required: {
     value: true,
-    message: "Este campo es requerido",
+    message: "This field is required",
   },
   maxLength: {
     value: 50,
-    message: "Este campo acepta 50 carácteres como máximo",
+    message: "This field accepts a maximum of 50 characters",
   },
   minLength: {
     value: 5,
-    message: "Este campo acepta 5 carácteres como minimo",
+    message: "This field accepts a minimum of 5 characters",
   },
 };
 
